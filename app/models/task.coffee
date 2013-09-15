@@ -8,4 +8,4 @@ module.exports = class Task extends Model
   
   timestamps: true
 
-  toggle: -> @save done: not @get 'done'
+  toggle: -> @save done: not @get 'done'	

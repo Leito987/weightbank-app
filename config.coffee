@@ -46,8 +46,6 @@ exports.config =
       options:
         no_trailing_semicolons:
           level: "ignore"
-        max_line_length:
-          level: "ignore"
         no_trailing_whitespace:
           level: "warn"
         no_backticks:

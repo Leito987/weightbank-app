@@ -16,22 +16,66 @@
   //- Signup form, not visible by default
   form#form-home-signup.form-inline.masked(role="form")
     .form-group
-      label.sr-only(for="exampleInputEmail2") Email address
-      input#exampleInputEmail2.form-control(type="email", 
+      label.sr-only(for="email") Email address
+      input#email.form-control(type="email", 
         placeholder="Enter email")
 
     .form-group
-      label.sr-only(for="exampleInputPassword2") Password
-      input#exampleInputPassword2.form-control(type="password", 
+      label.sr-only(for="password") Password
+      input#password.form-control(type="password", 
         placeholder="Password")
 
     .form-group
-      label.sr-only(for="exampleInputPassword2") Password
-      input#exampleInputPassword2.form-control(type="password", 
+      label.sr-only(for="password-conf") Password
+      input#password-conf.form-control(type="password", 
         placeholder="Password")
 
     button.btn.btn-default(type="submit") Sign up
 
+form#form-home-signup(role="form")
+  .input-group.col-sm-4
+    i.icon-envelope.input-group-addon
+    label.sr-only(for="email") Email address
+    input#email.form-control(type="text",placeholder="Enter email")
+
+  .input-group.col-sm-4
+    i.icon-key.input-group-addon
+    label.sr-only(for="password") Password
+    input#password.form-control(type="password",placeholder="Password")
+
+  .input-group.col-lg-4
+    i.icon-key.input-group-addon
+    label.sr-only(for="password-conf") Password
+    input#password-conf.form-control(type="password",placeholder="Password")
+
+  p
+    button.btn.btn-default(type="submit") Sign up
+
+    //- form
+    //-   .row
+    //-     .col-lg-6
+    //-       .input-group
+    //-         span.input-group-btn
+    //-           button.btn.btn-default(type="button") Go!
+    //-         input.form-control(type="text")
+
+    //-   .row
+    //-     .col-lg-6
+    //-       .input-group.input-group-sm
+    //-         span.input-group-addon @
+    //-         input.form-control(type="text", placeholder="Username")
+
+   
+    //-   .input-group 
+    //-     span.input-group-addon
+    //-       i.icon-envelope
+    //-     input.form-control(type="text", placeholder="Email address")
+      
+    //-   .input-prepend
+    //-     span.add-on
+    //-       i.icon-key
+    //-     input.span2(type="password", placeholder="Password")
+  
 
 .row.marketing
   .col-lg-6

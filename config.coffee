@@ -11,8 +11,8 @@ exports.config =
   notifications: true
 
   # Where to make the magic !
-  #paths:
-  #  public: 'public'
+  # paths:
+  # public: 'public'
 
   files:
     javascripts:

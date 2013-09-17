@@ -4,7 +4,7 @@ Application = require 'application'
 routes = require 'routes'
 
 # Initialize the application on DOM ready event.
-$ ->
+jQuery ($)->
   # Mix in underscore.string into underscore
   _.mixin _.str.exports()
 
